@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BTNS - CSS Button Library</title>
+  <link rel='stylesheet' type='text/css' href='css/style.css'>
+  <link rel='stylesheet' type='text/css' href='css/btns.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset='utf-8'>
+  <meta property="og:image" content="imgs/under-the-hood.png" />
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-104677163-3', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-9860594693989487",
+      enable_page_level_ads: true
+    });
+  </script>
+</head>
+<body>
+  <div class='btns-container'>
+    <div class='btns-info'><!-- header -->
+      <div class='btns-info-box'>
+        <h1>BTNS</h1>
+        <h2 class='version'>Version 0.6</h2>
+        <span style='font-size: 0.8em;'>Share the BTNS library:</span><br>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.css-btns.com" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i></a>
+        <a href="http://twitter.com/home?status=http://www.css-btns.com" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://plus.google.com/share?url=http://www.css-btns.com" title="Share on Google+" target="_blank" class="btn btn-google"><i class="fa fa-google-plus"></i></a>
+        <p>Welcome to the BTNS SCSS/CSS Library - a small collection of premade buttons that you can start using in your web projects straight away! I've written this library with usability and
+        versatility at the forefront. An easy to use, extendable CSS button library.
+      </p>
+      </div>
+      <div class='btns-links'>
+        <a href='index.html'>Home</a> | <a href='#download'>Download</a> | <a href='#guide'>Quick Start Guide</a> | <a href='#changes'>Version History</a> | <a href='#licence'>Licence</a><br><br>
+      </div>
+    </div>
+    <div class='btns-bar'>
+      <h2 class='btns-header'>Standard Buttons</h2>
+      <p>Our standard coloured buttons. The default button is grey and you can change the colour easily with our no-nonsense class names. Not happy with the colours that we've chosen? No problem! We've made it really easy to change the default settings with just one little line of code, by including SCSS variables.</p>
+      <p>Why not add your own colours and extend upon this library? BTNS has been built with extendability in mind and it's been designed to be as easy to follow as possible. With under 150 lines of code*, BTNS is a doddle to get to grips with.</p>
+      <p>Not familiar with <a href='http://sass-lang.com/' style='text-decoration:none; color:#27ae60;'>SCSS</a>? Check out our <a href='#guide' style='color: #27ae60; text-decoration: none;'>handy quick start guide</a> to help you get started! Alternatively BTNS is also available in pure CSS - albeit making customisation more difficult.</p>
+      <p><sub>* Comments not included.</sub></p>
+      <button class='btns-button btns-red'>Click Me</button><button class='btns-button btns-blue'>Click Me</button><button class='btns-button btns-green'>Click Me</button><button class='btns-button btns-orange'>Click Me</button><button class='btns-button btns-purple'>Click Me</button>
+      <div class='btns-code'>
+        <table>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-red'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-red'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-orange'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-orange'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-green'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-green'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-blue'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-blue'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-purple'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-purple'>Click Me</button></td>
+          </tr>
+        </table>
+      </div>
+    </div><!-- standard buttons --><!-- standard buttons -->
+    <div class='seperator'></div>
+    <div class='btns-bar'>
+      <h2>Border Bottom</h2>
+      <p class='center-this'>This set of smooth, flat UI buttons features a bold underline, perfect for sites opting for a more minimalist style. Hover over the buttons to see the difference between the two styles. Feeling funky? Why not try mixing and matching the colours?!</p>
+      <button class='btns-button btns-red-bottom'>Click Me</button><button class='btns-button btns-blue-bottom'>Click Me</button><button class='btns-button btns-green-bottom'>Click Me</button><button class='btns-button btns-orange-bottom'>Click Me</button><button class='btns-button btns-purple-bottom'>Click Me</button><br>
+      <button class='btns-button btns-red-bottom btns-alt-red'>Click Me</button><button class='btns-button btns-blue-bottom btns-alt-blue'>Click Me</button><button class='btns-button btns-green-bottom btns-alt-green'>Click Me</button><button class='btns-button btns-orange-bottom btns-alt-orange'>Click Me</button><button class='btns-button btns-purple-bottom btns-alt-purple'>Click Me</button>
+      <div class='btns-code'>
+        <table>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-red-bottom'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-red-bottom'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-orange-bottom'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-orange-bottom'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-green-bottom'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-green-bottom'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-blue-bottom'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-blue-bottom'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-purple-bottom'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-purple-bottom'>Click Me</button></td>
+          </tr>
+        </table>
+      </div>
+      <div class='btns-code'>
+        <table>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-red-bottom btns-alt-red'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-red-bottom btns-alt-red'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-orange-bottom btns-alt-orange'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-orange-bottom btns-alt-orange'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-green-bottom btns-alt-green'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-green-bottom btns-alt-green'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-blue-bottom btns-alt-blue'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-blue-bottom btns-alt-blue'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-purple-bottom btns-alt-purple'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-purple-bottom btns-alt-purple'>Click Me</button></td>
+          </tr>
+        </table>
+      </div>
+    </div><!-- border bottom -->
+    <div class='seperator'></div>
+    <div class='btns-bar'>
+      <h2>Shadows</h2>
+      <p class='center-this'>Adds a really cool drop shadow to our CSS buttons! Our shadow can be used with various styles for some great effects!</p>
+      <button class='btns-button btns-shadow btns-red'>Click Me</button><button class='btns-button btns-shadow btns-blue'>Click Me</button><button class='btns-button btns-shadow btns-green'>Click Me</button><button class='btns-button btns-shadow btns-orange'>Click Me</button><button class='btns-purple btns-button btns-shadow'>Click Me</button>
+      <div class='btns-code' id='except'>
+        <table>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-red btns-shadow'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-red btns-shadow'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-orange btns-shadow'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-orange btns-shadow'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-green btns-shadow'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-green btns-shadow'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-blue btns-shadow'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-blue btns-shadow'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-purple btns-shadow'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-purple btns-shadow'>Click Me</button></td>
+          </tr>
+        </table>
+      </div>
+    </div><!-- shadows -->
+    <div class='seperator'></div>
+    <div class='btns-bar'>
+      <h2>Rounded CSS Buttons</h2>
+      <p class='center-this'>Round off the corners with the 'btns-round' class! Rounded buttons are awesome!</p>
+      <button class='btns-button btns-round btns-red'>Click Me</button><button class='btns-button btns-round btns-blue'>Click Me</button><button class='btns-button btns-round btns-green'>Click Me</button><button class='btns-button btns-round btns-orange'>Click Me</button><button class='btns-button btns-round btns-purple'>Click Me</button>
+      <div class='btns-code'>
+        <table>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-red btns-round'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-red btns-round'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-orange btns-round'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-orange btns-round'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-green btns-round'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-green btns-round'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-blue btns-round'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-blue btns-round'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-purple btns-round'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-purple btns-round'>Click Me</button></td>
+          </tr>
+        </table>
+      </div>
+    </div><!-- round -->
+    <div class='seperator'></div>
+    <div class='btns-bar'>
+      <h2>Border Left</h2>
+      <p class='center-this'>Just like our border bottom buttons, except, well... the borders on the left!</p>
+      <button class='btns-button btns-red-left'>Click Me</button><button class='btns-button btns-blue-left'>Click Me</button><button class='btns-button btns-green-left'>Click Me</button><button class='btns-button btns-orange-left'>Click Me</button><button class='btns-button btns-purple-left'>Click Me</button><br>
+      <button class='btns-button btns-red-left btns-alt-red'>Click Me</button><button class='btns-alt-blue btns-button btns-blue-left'>Click Me</button><button class='btns-button btns-green-left btns-alt-green'>Click Me</button><button class='btns-button btns-orange-left btns-alt-orange'>Click Me</button><button class='btns-alt-purple btns-button btns-purple-left'>Click Me</button>
+      <div class='btns-code'>
+        <table>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-red-left'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-red-left'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-orange-left'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-orange-left'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-green-left'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-green-left'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-blue-left'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-blue-left'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-purple-left'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-purple-left'>Click Me</button></td>
+          </tr>
+        </table>
+      </div>
+      <div class='btns-code'>
+        <table>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-red-left btns-alt-red'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-red-left btns-alt-red'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-orange-left btns-alt-orange'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-orange-left btns-alt-orange'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-green-left btns-alt-green'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-green-left btns-alt-green'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-blue-left btns-alt-blue'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-blue-left btns-alt-blue'>Click Me</button></td>
+          </tr>
+          <tr>
+            <td>&lt;<span class='red'>button</span> <span class='orange'>class</span>='btns-button btns-purple-left btns-alt-purple'&gt;Click Me&lt;/<span class='red'>button</span>&gt;</td><td><button class='btns-button btns-purple-left btns-alt-purple'>Click Me</button></td>
+          </tr>
+        </table>
+      </div>
+    </div><!-- border left -->
+    <div class='seperator'></div>
+    <div id='download'>
+      <h2>Click the button below to download BTNS!</h2>
+      <form method="get" action="downloads/sass-btns.0.6.zip">
+        <button type="submit" class='btns-button btns-red btns-round btns-shadow'>Download!</button>
+      </form>
+      <br>
+      <br><br><span class='btns-wp'>Now introducing the BTNS WordPress plugin! Allows the use of BTNS classes on your WP website!</span><br><br>
+      <form method='get' action='downloads/wp-btns.zip'>
+        <button type='submit' class='btns-button btns-green btns-round btns-shadow'>Download BTNS<br><span class='small'>For WP</span></button>
+      </form>
+    </div>
+    <div class='btns-bar flex'><!-- sales spiel -->
+      <div class='btns-img-text'>
+        <p class='btns-p'>The BTNS library provides a great foundation to build upon whilst being ready to use straight away in any of your web projects!</p>
+        <p class='btns-p'>Save valuable time creating new buttons with our simple and flexible CSS buttons library!</p>
+        <p class='btns-p'>BTNS is free to use and easy to understand, making it a perfect addition to any project. Please consult the <a href='#licence' style='color: #27ae60; text-decoration: none;'>licence</a> for more information on usage rights.</p>
+      </div>
+      <div class='btns-img'>
+        <img src='imgs/under-the-hood.png'></img>
+      </div>
+    </div><!-- sales spiel -->
+    <div class='seperator'></div>
+    <div class='btns-bar' id='guide'>
+      <h2>Quick Start Guide</h2>
+      <h3>SASS/SCSS BTNS:</h3>
+      <p style='font-size: 0.925em;'><i>This guide is currently good for Windows users. If you are using an alternative operating system please check back later for more guides. Want to help out by creating a guide for other operating systems? <a href='mailto:danielwinning1@gmail.com' style='color: #27ae60; text-decoration: none;'>Email me</a> to get involved!</i></p>
+      <p>If you are unfamiliar with SASS then do not fear, this handy guide should help you to get started using SCSS BTNS. We'll walk you through the process as simply as possible.</p>
+      <p>After downloading and extracting the 'sass-btns' folder, you will notice two files: btns.scss and _settings.scss. Copy both of these into a new folder in your project called SCSS (or whatever you want to call it really). Check out the screenshot below to see an example of a structured project including BTNS.</p>
+      <p class='btns-setup'><img src='imgs/project-setup.png'></img></p>
+      <p>You'll notice that right now, the HTML document is linking to a non-existent CSS file! That's ok though, we'll get round to creating that in just a moment (magically). The next step is to setup SASS on your machine. First of all, download the
+        <a href='https://rubyinstaller.org/' style='color: #27ae60; text-decoration: none;'>Ruby Installer</a> and run the program.</p>
+      <p>Once Ruby is installed on your device, open up the command window and type <span class='btns-code-span'>gem install sass</span>. This should kick off the installation process for SASS. Once this is done, you are now able to use SASS on your machine, hooray!</p>
+      <p>The next step involves your command line once again. Once installation has completed type <span class='btns-code-span'>cd </span> (yes, cd followed by a space - it stands for change directory), then target your project folder (New Buttons Project in our case). The easiest way to do this is to
+        open your command line and file explorer side by side, then drag your project folder into the command line - then press enter.</p>
+      <p>Next, type <span class='btns-code-span'>sass --watch scss:css</span> on the next line (after hitting return). This will watch all the files in 'New Buttons Project/scss' and will generate a new stylesheet in the css folder. Your command line should look something like this:</p>
+      <p class='btns-setup'><img src='imgs/cmd-line.png'></img></p>
+      <p>Now you can navigate back to your project and if you've followed all of these steps, you should now see an auto generated btns.css file inside your CSS folder - how cool is that? The generated btns.css file is the file that needs to be uploaded to your website, the SCSS files stay on your mcahine for local editing!</p>
+      <p class='btns-setup'><img src='imgs/sass-setup-complete.png'></img></p>
+
+      <p style='font-size: 2em; text-align: center;'><b>Full quick start guide coming soon!</b></p>
+    </div><!-- quick start -->
+    <div class='seperator'></div>
+    <div class='btns-bar' id='changes'>
+      <h2>Version History</h2>
+      <table class='version'>
+        <thead>
+          <td>Date</td><td>Version</td><td>Details</td>
+        </thead>
+        <tr>
+          <td>30.08.2017</td><td>0.5</td><td>Early release. User testing and optimisation.</td>
+        </tr>
+        <tr>
+          <td>01.09.2017</td><td>0.6</td><td>Early release. Converted to SCSS (SASS). BTNS is now supported across all browsers!</td>
+        </tr>
+      </table>
+    </div>
+    <div class='seperator'></div>
+    <div class='btns-bar' id='licence'>
+      <h2>Licence</h2>
+      <p class='btns-p'>The BTNS CSS Button Library is free to download and use for personal or commercial projects. You are free to extend and modify the library as you see fit. Accreditation is not required when using the script, but please <b>do not</b> redistribute this library without accreditation or claim it as your own original works. I hope that this resource acts to save you time, provide inspiration or prove useful in some way, please enjoy the code!</p>
+    </div><!-- licence -->
+  </div>
+  <footer>
+    Enjoying the library? Make an optional donation to help me continue building cool stuff!
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="HKHET8R92JUVG">
+      <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+    <div id='credits'>
+      <p style='text-align: center;'>Created by <a href='mailto:danielwinning1@gmail.com' style='color: #27ae60; text-decoration: none;'>Danny</a></p>
+    </div>
+  </footer>
+</body>
+</html>

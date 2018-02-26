@@ -1,0 +1,30 @@
+/* Font face */
+$font: 'Open Sans', sans-serif;
+$font-color: #fff;
+$font-weight: bold;
+$font-size: 1.25em;
+
+/* Borders, sizing, transition and effects */
+$border: none;
+$border-standard: 1px solid;
+$single-border: 4px solid;
+$margin: 10px;
+$padding: 10px;
+$transition-time: .5s;
+$border-radius: 8px;
+$shadow: 3px 8px 8px 0px rgba(0,0,0,0.4);
+$cursor: pointer;
+
+/* Button colours */
+$default: rgba(204, 204, 204, 1);
+$red: rgba(235, 79, 64, 1);
+$blue: rgba(64, 123, 235, 1);
+$green: rgba(110, 190, 110, 1);
+$orange: rgba(236, 122, 21, 1);
+$purple: rgba(160, 94, 187, 1);
+$hover-default: rgba(204,204,204,0.75);
+$hover-red: rgba(235, 79, 64, 0.75);
+$hover-blue: rgba(64, 123, 235, 0.75);
+$hover-green: rgba(110, 190, 110, 0.75);
+$hover-orange: rgba(236, 122, 21, 0.75);
+$hover-purple: rgba(160, 94, 187, 0.75);

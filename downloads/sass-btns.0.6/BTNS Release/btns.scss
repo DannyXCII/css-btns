@@ -1,0 +1,129 @@
+@import 'settings';
+
+.btns-button {
+  cursor: $cursor;
+  border: $border;
+  background-color: $default;
+  font-family: $font;
+  color: $font-color;
+  font-weight: $font-weight;
+  margin: $margin;
+  padding: $padding;
+  font-size: $font-size;
+  transition: $transition-time;
+}
+
+/* Standard buttons */
+.btns-red {
+  background-color: $red;
+  border: $border-standard $red;
+}
+
+.btns-blue {
+  background-color: $blue;
+  border: $border-standard $blue;
+}
+
+.btns-green {
+  background-color: $green;
+  border: $border-standard $green;
+}
+
+.btns-orange {
+  background-color: $orange;
+  border: $border-standard $orange;
+}
+
+.btns-purple {
+  background-color: $purple;
+  border: $border-standard $purple;
+}
+
+/* Standard Hovers */
+.btns-red:hover {
+  background-color: $hover-red;
+}
+
+.btns-blue:hover {
+  background-color: $hover-blue;
+}
+
+.btns-green:hover {
+  background-color: $hover-green;
+}
+
+.btns-orange:hover {
+  background-color: $hover-orange;
+}
+
+.btns-purple:hover {
+  background-color: $hover-purple;
+}
+
+/* Single Borders */
+/* Coloured bottom border */
+.btns-red-bottom, .btns-blue-bottom, .btns-green-bottom, .btns-orange-bottom, .btns-purple-bottom {
+  border-bottom: $single-border;
+}
+
+/* Coloured left border */
+.btns-red-left, .btns-blue-left, .btns-green-left, .btns-orange-left, .btns-purple-left {
+  border-left: $single-border;
+}
+
+.btns-red-bottom, .btns-red-left {
+  border-color: $red;
+}
+
+.btns-blue-bottom, .btns-blue-left {
+  border-color: $blue;
+}
+
+.btns-green-bottom, .btns-green-left {
+  border-color: $green;
+}
+
+.btns-orange-bottom, .btns-orange-left {
+  border-color: $orange;
+}
+
+.btns-purple-bottom, .btns-purple-left {
+  border-color: $purple;
+}
+
+/* Default hover effect */
+.btns-red-bottom:hover, .btns-blue-bottom:hover, .btns-green-bottom:hover, .btns-purple-bottom:hover, .btns-orange-bottom:hover,
+.btns-red-left:hover, .btns-blue-left:hover, .btns-green-left:hover, .btns-purple-left:hover, .btns-orange-left:hover {
+  background-color: $hover-default;
+}
+
+/* Alternate hover effects - coloured hover */
+.btns-alt-red:hover {
+  background-color: $red;
+}
+
+.btns-alt-blue:hover {
+  background-color: $blue;
+}
+
+.btns-alt-green:hover {
+  background-color: $green;
+}
+
+.btns-alt-orange:hover {
+  background-color: $orange;
+}
+
+.btns-alt-purple:hover {
+  background-color: $purple;
+}
+
+/* Rounded buttons */
+.btns-round {
+  border-radius: $border-radius;
+}
+
+/* Shadowed buttons */
+.btns-shadow {
+  box-shadow: $shadow;
+}

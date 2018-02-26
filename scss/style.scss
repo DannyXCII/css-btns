@@ -1,0 +1,237 @@
+@import 'settings';
+@import 'site-settings';
+
+$white: #fff;
+$black: #000;
+$code-font: 'Source Code Pro', monospace;
+
+body {
+  background-color: $body-background;
+  font-family: $font;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding: $padding;
+}
+
+p,
+td:nth-of-type(odd) {
+  text-align: left;
+}
+
+.red {
+  color: $red;
+}
+
+.orange {
+  color: $orange;
+}
+
+.btns-container,
+.btns-info,
+footer,
+#download {
+  width: 100vw;
+}
+
+.seperator,
+.btns-code {
+  width: 100%;
+}
+
+.seperator {
+  min-height: 25px;
+}
+
+.btns-bar {
+  width: 80vw;
+  background-color: $white;
+  margin: 5px auto;
+}
+
+.btns-bar,
+.btn,
+p {
+  padding: 5px;
+}
+
+.btns-code {
+  margin: auto;
+  margin-top: 5px;
+}
+
+.btns-code-span {
+  padding: 2px;
+}
+
+.btns-code,
+.btns-code-span {
+  background-color: $black;
+}
+
+h1,
+h2,
+.btns-code,
+.btns-code-span {
+  font-family: $code-font;
+}
+
+.btns-code-span,
+.btns-code,
+.btns-links {
+  color: $white;
+}
+
+h1 {
+  color: #888;
+}
+
+h1,
+h2 {
+  text-decoration: overline;
+}
+
+#except {
+  background-color: #eee;
+}
+
+#except,
+footer {
+  color: $black;
+}
+
+.btns-info {
+  margin-top: 4em;
+}
+
+.btns-info-box {
+  margin: 0 auto;
+  width: 25vw;
+  font-size: 1.3em;
+  line-height: 1.75em;
+  font-style: italic;
+}
+
+.flex {
+  display: flex;
+}
+
+.btns-img,
+.btns-img-text,
+.half {
+  width: 50%;
+}
+
+.btn,
+.btns p {
+  font-size: $font-size;
+}
+
+.btn-facebook {
+  color:#3b5998;
+}
+
+.btn-twitter {
+  color:#4099ff;
+}
+
+.btn-google {
+  color: #d34836;
+}
+
+.version {
+  font-size: 0.85em;
+}
+
+.version thead {
+  font-weight: $font-weight;
+}
+
+.version td {
+  border-bottom: $border-standard #999;
+}
+
+.btns-info,
+.btns-p,
+#download {
+  padding: 20px;
+}
+
+.btns-p {
+  margin: $margin;
+}
+
+div.btns-img img {
+  max-width: 100%;
+}
+
+footer {
+  line-height: 2em;
+}
+
+.btns-links a {
+  text-decoration: none;
+  color: #27ae60;
+}
+
+footer,
+.btns-setup,
+.btns-links,
+.center-this,
+#download,
+#download p,
+.btns-info-box,
+.btns-info-box p,
+.btns-bar,
+.version td,
+.showed,
+.half p {
+  text-align: center;
+}
+
+.btns-setup img,
+#download p {
+  max-width: 80vw;
+}
+
+.btns-links a:hover {
+  color: #777;
+}
+
+#download form {
+  margin: 30px;
+}
+
+.small {
+  font-size: 0.65em;
+}
+
+.half p {
+  font-size: 0.8em; 
+}
+
+.btns-wp {
+  font-size: 1.5em;
+  padding: 0;
+}
+
+.showed {
+  display: none;
+}
+
+.blog-desc {
+  display: flex;
+  width: 100%;
+}
+
+.half {
+  width: 50%;
+}

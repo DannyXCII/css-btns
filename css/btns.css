@@ -1,0 +1,113 @@
+/* Font face */
+/* Borders, sizing, transition and effects */
+/* Button colours */
+.btns-active {
+  background-color: #fff !important;
+  color: #000 !important; }
+
+.btns-button {
+  cursor: pointer;
+  border: none;
+  background-color: #cccccc;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.25em;
+  transition: 0.5s; }
+
+.btns-button:hover {
+  color: #fff; }
+
+/* Standard buttons */
+.btns-red {
+  background-color: #eb4f40;
+  border: 1px solid #eb4f40; }
+
+.btns-blue {
+  background-color: #407beb;
+  border: 1px solid #407beb; }
+
+.btns-green {
+  background-color: #6ebe6e;
+  border: 1px solid #6ebe6e; }
+
+.btns-orange {
+  background-color: #ec7a15;
+  border: 1px solid #ec7a15; }
+
+.btns-purple {
+  background-color: #a05ebb;
+  border: 1px solid #a05ebb; }
+
+/* Standard Hovers */
+.btns-red:hover {
+  background-color: rgba(235, 79, 64, 0.75); }
+
+.btns-blue:hover {
+  background-color: rgba(64, 123, 235, 0.75); }
+
+.btns-green:hover {
+  background-color: rgba(110, 190, 110, 0.75); }
+
+.btns-orange:hover {
+  background-color: rgba(236, 122, 21, 0.75); }
+
+.btns-purple:hover {
+  background-color: rgba(160, 94, 187, 0.75); }
+
+/* Single Borders */
+/* Coloured bottom border */
+.btns-red-bottom, .btns-blue-bottom, .btns-green-bottom, .btns-orange-bottom, .btns-purple-bottom {
+  border-bottom: 4px solid; }
+
+/* Coloured left border */
+.btns-red-left, .btns-blue-left, .btns-green-left, .btns-orange-left, .btns-purple-left {
+  border-left: 4px solid; }
+
+.btns-red-bottom, .btns-red-left {
+  border-color: #eb4f40; }
+
+.btns-blue-bottom, .btns-blue-left {
+  border-color: #407beb; }
+
+.btns-green-bottom, .btns-green-left {
+  border-color: #6ebe6e; }
+
+.btns-orange-bottom, .btns-orange-left {
+  border-color: #ec7a15; }
+
+.btns-purple-bottom, .btns-purple-left {
+  border-color: #a05ebb; }
+
+/* Default hover effect */
+.btns-red-bottom:hover, .btns-blue-bottom:hover, .btns-green-bottom:hover, .btns-purple-bottom:hover, .btns-orange-bottom:hover,
+.btns-red-left:hover, .btns-blue-left:hover, .btns-green-left:hover, .btns-purple-left:hover, .btns-orange-left:hover {
+  background-color: rgba(204, 204, 204, 0.75); }
+
+/* Alternate hover effects - coloured hover */
+.btns-alt-red:hover {
+  background-color: #eb4f40; }
+
+.btns-alt-blue:hover {
+  background-color: #407beb; }
+
+.btns-alt-green:hover {
+  background-color: #6ebe6e; }
+
+.btns-alt-orange:hover {
+  background-color: #ec7a15; }
+
+.btns-alt-purple:hover {
+  background-color: #a05ebb; }
+
+/* Rounded buttons */
+.btns-round {
+  border-radius: 8px; }
+
+/* Shadowed buttons */
+.btns-shadow {
+  box-shadow: 3px 8px 8px 0px rgba(0, 0, 0, 0.4); }
+
+/*# sourceMappingURL=btns.css.map */
