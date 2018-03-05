@@ -60,6 +60,7 @@ p {
 
 h1,
 h2,
+h3,
 .btns-code,
 .btns-code-span {
   font-family: "Source Code Pro", monospace; }
@@ -73,7 +74,8 @@ h1 {
   color: #888; }
 
 h1,
-h2 {
+h2,
+h3 {
   text-decoration: overline; }
 
 #except {
@@ -185,14 +187,4 @@ footer,
 .half {
   width: 50%; }
 
-.euk-link {
-  text-align: center;
-  display: flex;
-  width: 80vw;
-  margin: 0 auto;
-}
-
-#idevads_15 {
-  margin: 0 auto;
-}
 /*# sourceMappingURL=style.css.map */

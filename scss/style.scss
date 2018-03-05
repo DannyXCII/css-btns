@@ -79,6 +79,7 @@ p {
 
 h1,
 h2,
+h3,
 .btns-code,
 .btns-code-span {
   font-family: $code-font;
@@ -95,7 +96,8 @@ h1 {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   text-decoration: overline;
 }
 
@@ -215,7 +217,7 @@ footer,
 }
 
 .half p {
-  font-size: 0.8em; 
+  font-size: 0.8em;
 }
 
 .btns-wp {

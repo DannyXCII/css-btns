@@ -1,10 +1,6 @@
 /* Font face */
 /* Borders, sizing, transition and effects */
 /* Button colours */
-.btns-active {
-  background-color: #fff !important;
-  color: #000 !important; }
-
 .btns-button {
   cursor: pointer;
   border: none;
