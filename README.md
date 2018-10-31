@@ -4,8 +4,6 @@
 
 This is the source code for the CSS BTNS website and project.
 
-CSS BTNS now has its very own website, you can find it here: www.css-btns.com
-
 On my to-do list: improve the mobile experience of the website.
 
 Thanks :)
